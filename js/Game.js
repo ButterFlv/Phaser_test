@@ -23,6 +23,7 @@ class Game extends Phaser.Scene {
 
     // Player クラス内の createDebugUI() を呼び出す
     // this.player.createDebugUI();
+    this.scale.startFullscreen();
   }
 
   update() {
